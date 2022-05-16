@@ -91,3 +91,72 @@ header {
     left: 145px;
 }
 
+main {
+    width: 100%;
+    height: auto;
+    background-color:rgb(34, 34, 34);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.about-me{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.about-me .about-me-img{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    margin-bottom:30px ;
+    background-image: url(../assets/imagenes/IMG_20220128_080159_2-1_2\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 80px;
+}
+
+.about-me-description h2{
+    margin-bottom: 10px;
+    max-width: 900px;
+    min-width: 288px;
+    color: white;
+    position: relative;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.about-me-description p{
+    color: white;
+    position: relative;
+    margin-bottom: 50px;
+    top: 30px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 20px;
+}
+
+.about-me-description .portfolio-button{
+   position: absolute;
+   left: calc(50% - 118px);
+   top: 730px;
+   display: block;
+   margin-top: 60px;
+   padding: 15px;
+   width: 229px;
+   height: 48px;
+   background-color: white;
+   border-radius: 60px;
+   font-size: 1.5rem;
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+}
+
+.about-me-description .portfolio-button:hover{
+    background-color: dimgrey;
+}
