@@ -1,0 +1,93 @@
+/*Estilos de posicionamiento*/
+/*Modelo de caja*/
+/*Tipografía*/
+/*Visuales*/
+/*Otros*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+    background-color: black;
+    font-family: 'Ubuntu', 'sans-serif';
+}
+
+.navbar a{
+    position: relative;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    font-size: 1.5rem;
+    top: 10px;
+    margin: 10px;
+    right: 72px;
+}
+
+
+.header--title-container{
+    color: white;
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 280px;
+    margin-top: 100px;
+    text-align: center;
+    align-self: center;
+}
+
+.header--title-container h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.header--title-container p {
+    margin-top: 20px;
+    font-size:1.8rem;
+    line-height: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header--title-container .header-button{
+   position: absolute;
+   left: calc(50% - 118px);
+   top: 270px;
+   display: block;
+   margin-top: 35px;
+   padding: 15px;
+   width: 229px;
+   height: 48px;
+   background-color: white;
+   box-shadow: 0px 4px 8px rgba(189, 189, 189, 0.973);
+   border: none;
+   border-radius: 30px;
+   font-size: 1.5rem;
+   text-decoration: none;
+   color: black;
+}
+ 
+
+.icon_button{
+    width: 10px;
+    height: 10px;
+    display: flex;
+    position: relative;
+    bottom: 12px;
+    left: 145px;
+}
+
