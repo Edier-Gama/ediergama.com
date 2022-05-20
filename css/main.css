@@ -111,7 +111,7 @@ main {
     height: 120px;
     margin: 0 auto;
     margin-bottom:30px ;
-    background-image: url(../assets/imagenes/IMG_20220128_080159_2-1_2\ \(1\).jpg);
+    background-image: url(../assets/imagenes/1652996299111.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -131,7 +131,7 @@ main {
 .about-me-description p{
     color: white;
     position: relative;
-    margin-bottom: 50px;
+    
     top: 30px;
     font-size: 1.6rem;
     font-weight: 500;
@@ -159,4 +159,200 @@ main {
 
 .about-me-description .portfolio-button:hover{
     background-color: dimgrey;
+}
+
+.main_details{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: rgb(67, 67, 67);
+    top: 60px;
+}
+
+.cards_header{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.cards_header h2{
+    margin-bottom: 20px;
+    font-size: 2.7rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: white;
+}
+
+.cards_header p{
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: rgb(169, 169, 169);
+}
+
+.services{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: auto;
+    margin: 15px auto;
+    padding: 15px;
+    background-color:rgb(34, 34, 34);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.902);
+}
+
+.services .python{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-image: url(../assets/logos/python.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.services .flask{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-image: url(../assets/logos/flask.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.services .django{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    margin-bottom: 10px;
+    background-image: url(../assets/logos/django.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 3px;
+}
+
+.services .fastapi{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-image: url(../assets/logos/fastapi.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+
+.card_service_title{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: white;
+}
+
+.card_service_content{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: white;
+}
+
+.services_2{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: auto;
+    margin: 15px auto;
+    padding: 15px;
+    background-color:rgb(34, 34, 34);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.902);
+}
+
+.services_2 .html{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-image: url(../assets/logos/html.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.services_2 .css{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-image: url(../assets/logos/css.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+
+.services_2 .javascript{
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    bottom: 3px;
+    margin-bottom: 15px;
+    background-image: url(../assets/logos/JavaScript-logo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    margin: 3px;
+}
+
+.services_2 .react{
+    position: relative;
+    display: inline-block;
+    left: 5px;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-image: url(../assets/logos/react-hexagon.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card_service_title_2{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: white;
+}
+
+.card_service_content_2{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: white;
 }
