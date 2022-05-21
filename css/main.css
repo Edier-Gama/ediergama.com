@@ -555,18 +555,21 @@ main {
     color: white;
 }
 
-.footer{
-    position: relative;
-    width: 100%;
-    min-width: 320px;
+footer{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
     height: auto;
-    padding: 20px 10px;
+    margin: 15px auto;
+    position: relative;
     background-color: rgb(255, 255, 255);
-    top: 60px; 
+    top: 60px;
+
 }
 
 .social_media h2{
     position: relative;
+    top: 9px;
     text-align: center;
     margin-bottom: 7px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -574,20 +577,25 @@ main {
 }
 
 .letters_social a{
-    font-family: 'Roboto Condensed', sans-serif;
-    position: relative;
-    font-size: 1.4rem;
     display: inline-flex;
-    margin: 6px;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
 }
+
 
 .social_media .twitter{
     display: inline-flex;
-
+    top: 5px;
+    left: 6px;
     position: relative;
     background-image: url(../assets/logos/twitter.jpg);
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -595,9 +603,11 @@ main {
 .social_media .instagram{
     display: inline-flex;
     position: relative;
+    top: 3px;
+    left: 25px;
     background-image: url(../assets/logos/instagram.jpg);
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -605,27 +615,31 @@ main {
 .social_media .facebook{
     display: inline-flex;
     position: relative;
+    top: 20px;
+    left: 42px;
     background-image: url(../assets/logos/facebook.jpg);
-    width: 30px;
-    height: 30px;
+    width: 55px;
+    height: 55px;
     background-repeat: no-repeat;
     background-size: 100%;
     
 }
-.social_media .likedin{
+.social_media .linkedin{
     display: inline-flex;
     position: relative;
-    background-image: url(../assets/logos/LinkedIn_icon_circle.svg.png);
-    width: 30px;
-    height: 30px;
+    top:5px;
+    left: 55px;
+    background-image: url(../assets/logos/linkedin.png);
+    width: 40px;
+    height: 40px;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     
 }
 .social_media .tiktok{
     display: inline-block;
     position: relative;
-    left: 157px;
+    left: 80px;
     background-image: url(../assets/logos/tiktok.png);
     width: 30px;
     height: 30px;
