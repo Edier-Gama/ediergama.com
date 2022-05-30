@@ -1,0 +1,11 @@
+.services{
+    width: 90%;
+    min-width: 290px;
+    max-width: 400px;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:rgb(34, 34, 34);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.902);
+}

@@ -1,0 +1,14 @@
+.header--title-container h1{
+    font-size: 4.9rem;
+
+}
+.header--title-container p{
+    font-size: 2rem;
+}
+
+.about-me .about-me-img{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    border-radius: 170px;
+}

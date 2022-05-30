@@ -1,0 +1,242 @@
+/*Estilos de posicionamiento*/
+/*Modelo de caja*/
+/*Tipografía*/
+/*Visuales*/
+/*Otros*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+    background-color: black;
+    font-family: 'Ubuntu', 'sans-serif';
+}
+
+/*------------------------------------------------------------------------*/
+
+.navbar a{
+    position: relative;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    font-size: 2rem;
+    top: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.navbar img{
+    position: relative;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+/*---------------------------------------------------------------------------*/
+
+
+
+.header--title-container{
+    color: white;
+    width: 90%;
+    min-width: 288px;
+    max-width: 1280px;
+    height: 320px;
+    margin-top: 100px;
+    text-align: center;
+    align-self: center;
+}
+
+.header--title-container h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.header--title-container p {
+    margin-top: 20px;
+    font-size:1.8rem;
+    line-height: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header--title-container .header-button{
+   position: absolute;
+   left: calc(50% - 118px);
+   top: 270px;
+   display: block;
+   margin-top: 35px;
+   padding: 15px;
+   width: 229px;
+   height: 48px;
+   background-color: white;
+   box-shadow: 0px 4px 8px rgba(189, 189, 189, 0.973);
+   border: none;
+   border-radius: 30px;
+   font-size: 1.5rem;
+   text-decoration: none;
+   color: black;
+}
+ 
+
+.icon_button{
+    width: 10px;
+    height: 10px;
+    display: flex;
+    position: relative;
+    bottom: 12px;
+    left: 145px;
+}
+
+/*----------------------------------------------------------------------------*/
+
+main {
+    width: 100%;
+    height: auto;
+    background-color:rgb(34, 34, 34);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.about-me{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.about-me .about-me-img{
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    margin-bottom:30px ;
+    border-radius: 80px;
+}
+
+.about-me-description{
+    width: 90%;
+    min-width: 288px;
+    max-width: 700px;
+    height: auto;
+    margin: 15px auto;
+    padding: 15px;
+    background-color:rgb(34, 34, 34);
+    border-radius: 5px;
+
+
+}
+.about-me-description h2{
+    position: absolute;
+    bottom: 17px;
+    color: white;
+    position: relative;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.about-me-description p{
+    color: white;
+    position: relative; 
+    top: 15px;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height:25px;
+}
+
+
+.main_details{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: rgb(67, 67, 67);
+    top: 60px;
+}
+
+/*----------------------------------------------------------------------------*/
+
+.cards_header{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.cards_header h2{
+    margin-bottom: 20px;
+    font-size: 2.7rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: white;
+}
+
+.cards_header p{
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+    max-width: 600px;
+    margin: 0 auto;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: rgb(169, 169, 169);
+}
+
+.services{
+    width: 90%;
+    min-width: 290px;
+    max-width: 600px;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:rgb(34, 34, 34);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.902);
+}
+
+.services .item{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.card_service_title{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: white;
+}
+
+.card_service_content{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: white;
+}
+
+/*----------------------------------------------------------------------------*/
