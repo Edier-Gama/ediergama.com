@@ -1,11 +1,24 @@
-.services{
+.services, .services_java, .services_db{
     width: 90%;
     min-width: 290px;
-    max-width: 400px;
-    height: auto;
-    margin: 20px auto;
-    padding: 20px;
-    background-color:rgb(34, 34, 34);
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.902);
+    max-width: 380px;
+    padding: 15px;
+}
+
+.services{
+    position: relative;
+    right: 230px;
+    top: 30px;
+}
+.services_java, .services_db{
+    position: relative;
+    left: 210px;
+    bottom: 431px;
+}
+.services_git{
+    position: relative;
+    bottom: 400px;
+}
+.main_details{
+    height: 970px;
 }
